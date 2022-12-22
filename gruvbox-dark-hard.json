@@ -1,42 +1,66 @@
-{
-    "name": "Gruvbox Dark (Hard)",
-    "is_dark": true,
-    "colors": {
-      "accent-color": "#fabd2f",
-      "primary-color": "#fe8019",
-      "warning-color": "#fb4934",
-      "sidebar-color": "#282828",
-      
-      "roomlist-background-color": "#1d2021",
-      "roomlist-text-color": "#a89984",
-      "roomlist-text-secondary-color": "#fe8019",
-      "roomlist-highlights-color": "#00000030",
-      "roomlist-separator-color": "#4d4d4d90",
-      
-      "timeline-background-color": "#1d2021",
-      "timeline-text-color": "#ebdbb2",
-      "timeline-text-secondary-color": "#a89984",
-      "timeline-highlights-color": "#00000030",
-      
-      "secondary-content": "#928374",
-      "tertiary-content": "#928374",
-      "quinary-content": "#504945",
-      
-      "reaction-row-button-selected-bg-color": "#689d6a",
-      "menu-selected-color": "#504945",
-      "icon-button-color": "#928374",
-      "accent": "#689d6a",
-      "alert": "#cc241d",
-      "username-colors": [
-        "#cc241d",
-        "#98971a",
-        "#d79921",
-        "#458588",
-        "#b16286",
-        "#689d6a",
-        "#a89984",
-        "#d65d0e"
-      ],
-      "avatar-background-colors": ["#458588", "#b16286", "#689d6a"]
-    }
-  }
+"setting_defaults": {
+    "custom_themes": [
+        {
+            "name": "Gruvbox Dark (Hard)",
+            "is_dark": true,
+            "fonts": {
+                "faces": [
+                    {
+                        "font-family": "Open Sans",
+                        "src": [{"url": "https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2", "format": "woff2"}]
+                    },
+                    {
+                        "font-family": "Source Code Pro",
+                        "src": [{"url": "https://fonts.gstatic.com/s/sourcecodepro/v22/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMlrTA.woff2", "format": "woff2"}]
+                    }
+                ],
+                "general": "Open Sans, sans",
+                "monospace": "Source Code Pro, mono"
+            },
+            "colors": {
+              "accent-color": "#fabd2f",
+              "primary-color": "#458588",
+              "warning-color": "#fb4934",
+              "sidebar-color": "#1d2021",
+              
+              "roomlist-background-color": "#282828",
+              "roomlist-text-color": "#a89984",
+              "roomlist-text-secondary-color": "#fb4934",
+              "roomlist-highlights-color": "#00000030",
+              "roomlist-separator-color": "#4d4d4d90",
+              
+              "timeline-background-color": "#1d2021",
+              "timeline-text-color": "#ebdbb2",
+              "timeline-text-secondary-color": "#a89984",
+              "timeline-highlights-color": "#00000030",
+              
+              "secondary-content": "#928374",
+              "tertiary-content": "#928374",
+              "quinary-content": "#504945",
+              
+              "reaction-row-button-selected-bg-color": "#689d6a",
+              "menu-selected-color": "#504945",
+              "icon-button-color": "#928374",
+              "accent": "#689d6a",
+              "alert": "#fb4934",
+              "username-colors": [
+                "#cc241d",
+                "#98971a",
+                "#d79921",
+                "#458588",
+                "#b16286",
+                "#689d6a",
+                "#a89984",
+                "#d65d0e"
+              ],
+              "avatar-background-colors": [
+                "#d79921",
+                "#458588",
+                "#b16286",
+                "#689d6a",
+                "#d65d0e"
+              ]
+            }
+        }
+    ]
+}
